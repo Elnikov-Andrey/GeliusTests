@@ -17,6 +17,7 @@ namespace ClientTests
         [SetUp]
         public void Setup()
         {
+            
             driver = new OpenQA.Selenium.Chrome.ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://rc.gelius.dp.ua/login");
