@@ -38,6 +38,7 @@ namespace ClientTests
         [TearDown]
         public void TearDown()
         {
+            
             driver.Close();
         }
 
