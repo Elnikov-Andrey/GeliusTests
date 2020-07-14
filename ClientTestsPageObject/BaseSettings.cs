@@ -7,7 +7,7 @@ namespace ClientTestsPageObject
     class BaseSettings
     {
         public static string clientName { get; set; } = "123";
-        public static string login = "123@i.ua";
-        public static string password = "123";        
+        public static string login = "***";
+        public static string password = "***";        
     }
 }
